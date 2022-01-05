@@ -1,0 +1,89 @@
+package com.java.order;
+
+import java.sql.Date;
+
+public class Orders {
+
+	private int orderId;
+	private int vendorId;
+	private int customerId;
+	private int menuId;
+	private int walletId;
+	private Date orderDate;
+	private int qualityOrder;
+	private String orderStatus;
+	private int billAmount;
+	private String orderComments;
+	public int getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+	public int getVendorId() {
+		return vendorId;
+	}
+	public void setVendorId(int vendorId) {
+		this.vendorId = vendorId;
+	}
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	public int getMenuId() {
+		return menuId;
+	}
+	public void setMenuId(int menuId) {
+		this.menuId = menuId;
+	}
+	public int getWalletId() {
+		return walletId;
+	}
+	public void setWalletId(int walletId) {
+		this.walletId = walletId;
+	}
+	public Date getOrderDate() {
+		return orderDate;
+	}
+	public void setOrderDate(Date orderDate) {
+		this.orderDate = orderDate;
+	}
+	
+	public String getOrderStatus() {
+		return orderStatus;
+	}
+	public void setOrderStatus(String orderStatus) {
+		this.orderStatus = orderStatus;
+	}
+	public int getBillAmount() {
+		return billAmount;
+	}
+	public void setBillAmount(int billAmount) {
+		this.billAmount = billAmount;
+	}
+	public String getOrderComments() {
+		return orderComments;
+	}
+	public void setOrderComments(String orderComments) {
+		this.orderComments = orderComments;
+	}
+	public int getQualityOrder() {
+		return qualityOrder;
+	}
+	public void setQualityOrder(int qualityOrder) {
+		this.qualityOrder = qualityOrder;
+	}
+	@Override
+	public String toString() {
+		return "Orders [orderId=" + orderId + ", vendorId=" + vendorId + ", customerId=" + customerId + ", menuId="
+				+ menuId + ", walletId=" + walletId + ", orderDate=" + orderDate + ", qualityOrder=" + qualityOrder
+				+ ", orderStatus=" + orderStatus + ", billAmount=" + billAmount + ", orderComments=" + orderComments
+				+ "]";
+	}
+
+
+	
+	
+}
